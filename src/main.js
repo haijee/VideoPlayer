@@ -3,5 +3,6 @@ import App from './App.vue'
 import player from './player/index'
 
 const app = createApp(App)
-app.use(player)
+console.log(player)
+app.use(player,{a:123})
 app.mount('#app')
